@@ -1,6 +1,6 @@
-import get_numbers
-import recupera_pages
-import ordenando
+from src.get_numbers import get_numbers as get
+import src.recupera_pages as recupera_pages
+import src.ordenando as ordenando
 
 def getFullNumbers():
 
@@ -12,7 +12,7 @@ def getFullNumbers():
 
     for page in lista_index:
 
-        todos = get_numbers.get_numbers(page)
+        todos = get(page)
 
         juntas.append(todos)
     
