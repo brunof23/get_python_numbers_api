@@ -4,7 +4,7 @@ import json
 def get_pages():
     page = 1
     while True:
-        
+        print ('página',page)
         r = requests.get(f'http://challenge.dienekes.com.br/api/numbers?page={page}')
 
         
@@ -21,5 +21,6 @@ def get_pages():
         if page == 25 or not has_next:
             break        
         page = page + 1 
+       
 
     return page
