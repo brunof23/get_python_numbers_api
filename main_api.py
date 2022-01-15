@@ -1,7 +1,7 @@
 from flask import Flask
-import main
+import main_get
 
-all_numbers = main.getFullNumbers()
+all_numbers = main_get.getFullNumbers()
 app = Flask(__name__)
 
 @app.route('/num')
