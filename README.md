@@ -7,6 +7,8 @@ Para Rodar a aplicação é necessário ter o python intalado na máquina bem co
 
 No mais é apenas rodar o projeto pelo main_api.py em seu editor favorito
 
+O Get da API estará em localhost:5000/num que pode ser aberta no seu navegador
+
 
 ### Tecnologias:
 
